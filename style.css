@@ -23,7 +23,6 @@ html{
 body{
     min-height: 100vh;
     background-color: var(--bg-color);
-    /* background-image: url(https://images.pexels.com/photos/3970396/pexels-photo-3970396.jpeg?auto=compress&cs=tinysrgb&w=600); */
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
@@ -167,7 +166,7 @@ header{
         transition: all .50s ease;
     }
     .navbar a:hover{
-        color: var(--main-color);
+        color: var(--text-color);
         transform: translateY(5px);
     }
     .navbar a.active{
@@ -186,7 +185,6 @@ section{
 .home{
     height: 150px;
     width: 100%;
-    background-image: url(http://www.w3.org/2000/svg);
     position: relative;
     display: flex;
     align-items: center;
@@ -258,7 +256,6 @@ header.sticky{
 
 }
 .about-text p{
-    /* color: var(--second-color); */
     font-size: var(--p-font);
     line-height: 30px;
     margin-bottom: 2rem;
@@ -301,10 +298,6 @@ header.sticky{
 
 .projects{
     background-color: var(--bg-color); 
-    /* margin-left: 100px;
-    margin-right: 100px; 
-    margin-top: 0;
-    border-radius: 25px; */
     padding: 150px;
 }
 .projects-content{
@@ -317,12 +310,12 @@ header.sticky{
 }
 
 .row img{
-    height: auto;
+    height: 300px;
     width: 100%;
     border-radius: 0.5rem;
     margin-bottom: 1.5rem;
-    /* object-fit:contain;
-    object-position: center; */
+    object-fit:contain;
+    object-position: center;
 }
 
 .row {
@@ -363,13 +356,9 @@ header.sticky{
 .contact{
     display: grid;
     background-color: black;
-    /* margin-top: 6rem;
-    margin-left: 6rem;
-    margin-right: 6rem; */
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 3rem;
-    /* border-radius: 25px; */
 }
 .contact-text h4{
     margin: 15px 0;
